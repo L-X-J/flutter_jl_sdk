@@ -1,7 +1,9 @@
 name: flutter_jl_sdk
-description: "杰理SDK Flutter 封装版本"
+description: "杰理SDK Flutter 封装版本 - 支持蓝牙设备连接、音乐控制、设备设置等功能"
 version: 0.0.1
-homepage:
+homepage: https://github.com/yuanquz/flutter_jl_sdk
+repository: https://github.com/yuanquz/flutter_jl_sdk
+issue_tracker: https://github.com/yuanquz/flutter_jl_sdk/issues
 
 environment:
   sdk: ^3.8.1
@@ -16,6 +18,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
 flutter:
   plugin:
     platforms:
